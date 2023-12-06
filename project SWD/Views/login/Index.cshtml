@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+
+    <div style="  float:left ; padding-left: 15%;padding-top: 11%; ">
+        <h1 class="h1">
+            <span>HANDICRAFT</span>
+        </h1>
+        <h2 class="h2">Turn your hobby into a business</h2>
+    </div>
+
+    <div style="  float: right ; padding-right: 15%;">
+        <form style="background-color: rgb(207, 138, 39);opacity: 0.7;">
+            <h2><font color="white"><b>Login Form</b></font></h2>
+            <label for="username"><font color="white"><b>Username: </b></font></label>
+            <input type="text" id="username" name="username" required>
+            <label for="password"><font color="white"><b>Password: </b></font></label>
+            <input type="password" id="password" name="password" required>
+            <center><p><font color="white">forget password?</font></p></center>
+            <center>
+                <button type="submit"><font color="black"><b>LOG IN</b></font></button>
+                <P><font color="white">or sign up using</font></P>
+                <div>
+                    <a href="https://www.facebook.com/"><img class="icon" src="img/login/29.jpg"></a>
+                    <a href="https://twitter.com/"><img class="icon" src="img/login/31.jpg"></a>
+                    <a href="https://accounts.google.com"> <img class="icon" src="img/login/30.jpg"></a>
+                </div>
+                <P><font color="white">or sign up using</font></P>
+                <button type="submit"><font color="black">SING UP</font></button>
+            </center>
+        </form>
+    </div>
+</body>
+</html>

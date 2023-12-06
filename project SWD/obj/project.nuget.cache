@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "SgIpTm5JrJ1AC1Xiv7LEHD4gELkOHODBaoFzAeYlZFlurgZkygY4esWY69h0Gv8n+3pOGi7Ydc0jnIUpRagNMA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\project SWD_final\\project SWD\\project SWD\\project SWD.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.SqlServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.Tools. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
